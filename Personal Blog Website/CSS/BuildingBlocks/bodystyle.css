@@ -1,0 +1,6 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
+    font-family: 'Bodoni Moda', 'Open Sans', 'sans-serif';
+  }
