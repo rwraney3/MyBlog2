@@ -2,7 +2,7 @@
 @import "../CSS/BuildingBlocks/fontsize.css";
 @import "../CSS/BuildingBlocks/socialmedia.css";
 
-p {
+caption {
   font-size: 2vmin;
   text-align: center;
   margin-top: -2px;
