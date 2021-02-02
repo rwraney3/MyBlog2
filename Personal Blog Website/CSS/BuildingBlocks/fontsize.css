@@ -18,6 +18,7 @@ h1 {
   
   p {
     font-size: 2vmin;
+    underline: none;
   }
   
   a {
