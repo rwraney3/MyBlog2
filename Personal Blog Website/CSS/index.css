@@ -18,8 +18,12 @@
     "four"
     "hd-2"
     "hd-3"
+    "at-1"
+    "at-2"
+    "at-3"
     "ft";
 }
+
 .header {
   text-align: center;
   align-self: center;
@@ -47,6 +51,7 @@
 .header-2 {
   text-align: center;
   align-self: center;
+  border-radius: none;
   background-color: black;
   color: white;
   width: auto;
@@ -86,8 +91,17 @@
   text-decoration: none;
 }
 
-#sidebar {
-  grid-area: sd;
+#author-1 {
+  font-size: 2vmin;
+  grid-area: at-1;
+}
+
+#author-2 {
+  grid-area: at-2;
+}
+
+#author-3 {
+  grid-area: at-3;
 }
 
 #one {
@@ -142,10 +156,11 @@
     display: grid;
     width: 755px;
     height: 100%;
-    grid-template-columns: 450px 1fr 1fr;
+    grid-template-columns: 450px repeat(2 1fr);
     grid-gap: 5px;
     grid-template-areas:
       "hd-1 hd-2 hd-3"
+      "at-1 at-1 at-1"
       "one two two"
       "three four four"
       "ft ft ft";
