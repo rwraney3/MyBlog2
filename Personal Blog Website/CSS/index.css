@@ -17,28 +17,10 @@
     "ft";
 }
 
-.figcaption{
+.figcaption {
   text-align: center;
   margin-top: -2px;
 }
-
-/* .header {
-  text-align: center;
-  align-self: center;
-  width: 100px;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  justify-content: space-between;
-  border-radius: 0.5em;
-  border-bottom: 0.25em solid gray;
-  -moz-transition: 0.1s;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
-  box-shadow: 0 2px 3px #ccc;
-  grid-area: hd;
-} */
 
 .header-1 {
   align-self: center;
@@ -89,7 +71,6 @@
 }
 
 #author-1 {
-  font-size: 2vmin;
   grid-area: at-1;
 }
 
@@ -110,7 +91,6 @@
   padding: 15px;
   caption-side: bottom;
   grid-area: two;
-
 }
 
 #three {
@@ -155,4 +135,3 @@
       "ft ft ft";
   }
 }
-
