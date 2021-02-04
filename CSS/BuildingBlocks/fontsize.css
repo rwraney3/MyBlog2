@@ -1,0 +1,32 @@
+h1 {
+    font-size: 5vmin;
+  }
+  
+  h2 {
+    font-size: 4vmin;
+  }
+  
+  h3 {
+    font-size: 3vmin;
+  }
+  
+  h4 {
+    font-size: 3vmin;
+    color: darkslategray;
+    margin-top: -10%;
+  }
+  
+  h5 {
+    font-size: 3vmin;
+    color: darkslategray;
+  } 
+
+  p {
+    font-size: 2vmin;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    align-content: center;
+  }
