@@ -24,7 +24,7 @@
 
 .header-1 {
   align-self: center;
-  color:green
+  color:green;
   grid-area: hd-1;
 }
 
