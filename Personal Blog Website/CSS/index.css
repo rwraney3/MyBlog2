@@ -24,11 +24,12 @@
 
 .header-1 {
   align-self: center;
-  color: darkslategray;
+  color:green
   grid-area: hd-1;
 }
 
 .header-2 {
+  display: flex;
   text-align: center;
   align-self: center;
   background-color: black;
@@ -46,6 +47,7 @@
 }
 
 .header-3 {
+  display: flex;
   text-align: center;
   align-self: center;
   background-color: black;
