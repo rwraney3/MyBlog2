@@ -1,20 +1,20 @@
-@import "../CSS/BuildingBlocks/bodystyle.css";
-@import "../CSS/BuildingBlocks/fontsize.css";
-@import "../CSS/BuildingBlocks/socialmedia.css";
+@import '../CSS/BuildingBlocks/bodystyle.css';
+@import '../CSS/BuildingBlocks/fontsize.css';
+@import '../CSS/BuildingBlocks/socialmedia.css';
 
 .container {
   display: grid;
   width: 300px;
   grid-template-areas:
-    "hd-1"
-    "bx2"
-    "bx1"
-    "bx3"
-    "bx4"
-    "hd"
-    "hd-2"
-    "hd-3"
-    "ft";
+    'hd-1'
+    'bx2'
+    'bx1'
+    'bx3'
+    'bx4'
+    'hd'
+    'hd-2'
+    'hd-3'
+    'ft';
 }
 
 .figcaption {
@@ -29,7 +29,6 @@
 }
 
 .header-2 {
-  display: flex;
   text-align: center;
   align-self: center;
   background-color: black;
@@ -47,7 +46,6 @@
 }
 
 .header-3 {
-  display: flex;
   text-align: center;
   align-self: center;
   background-color: black;
@@ -85,23 +83,25 @@ header {
 }
 
 #box2 {
+  display: flex;
   font-size: 2vmin;
   text-align: center;
   align-self: center;
   width: 300px;
   justify-content: space-around;
-  padding: 15px;
+  /* padding: 15px; */
   caption-side: bottom;
   grid-area: bx2;
 }
 
 #box3 {
+  display: flex;
   font-size: 2vmin;
   text-align: center;
   align-self: center;
   justify-content: space-around;
   width: 300px;
-  padding: 15px;
+  /* padding: 15px; */
   caption-side: bottom;
   grid-area: bx3;
 }
@@ -130,10 +130,10 @@ footer {
     grid-template-columns: 450px 1fr 1fr;
     grid-gap: 5px;
     grid-template-areas:
-      "hd-1 hd-2 hd-3"
-      "hd hd hd"
-      "bx1 bx2 bx2"
-      "bx3 bx4 bx4"
-      "ft ft ft";
+      'hd-1 hd-2 hd-3'
+      'hd hd hd'
+      'bx1 bx2 bx2'
+      'bx3 bx4 bx4'
+      'ft ft ft';
   }
 }

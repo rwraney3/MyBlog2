@@ -1,19 +1,19 @@
-@import "../CSS/BuildingBlocks/bodystyle.css";
-@import "../CSS/BuildingBlocks/fontsize.css";
-@import "../CSS/BuildingBlocks/socialmedia.css";
+@import '../CSS/BuildingBlocks/bodystyle.css';
+@import '../CSS/BuildingBlocks/fontsize.css';
+@import '../CSS/BuildingBlocks/socialmedia.css';
 
 .container {
   display: grid;
   width: 300px;
   grid-template-areas:
-    "hd-1"
-    "sd"
-    "one"
-    "two"
-    "three"
-    "hd-2"
-    "hd-3"
-    "ft";
+    'hd-1'
+    'sd'
+    'one'
+    'two'
+    'three'
+    'hd-2'
+    'hd-3'
+    'ft';
 }
 
 img {
@@ -103,10 +103,10 @@ img {
     grid-template-columns: 450px 1fr 1fr;
     grid-gap: 5px;
     grid-template-areas:
-      "hd-1 hd-2 hd-3"
-      "one sd sd"
-      "two sd sd"
-      "three three three"
-      "ft ft ft";
+      'hd-1 hd-2 hd-3'
+      'one sd sd'
+      'two sd sd'
+      'three three three'
+      'ft ft ft';
   }
 }
